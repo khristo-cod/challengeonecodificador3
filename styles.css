@@ -1,0 +1,350 @@
+.caja {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  margin: 0 auto;
+  background-color: #f3f5fc;
+}
+
+.img {
+  padding-top: 15px;
+}
+
+#escriba {
+  position: absolute;
+  width: 577px;
+  height: 48px;
+  left: 240px;
+  top: 168px;
+  font-family: 'inter';
+  font-style: 'regular';
+  font-weight: 577;
+  font-size: 32px;
+
+  line-height: 150%;
+  color: #0a3871;
+  border: none;
+}
+
+.mne {
+  position: absolute;
+  width: 400px;
+  height: 944px;
+  left: 1000px;
+  top: 40px;
+  padding-top: 30px;
+
+  background-color: #ffffff;
+  border-radius: 32px;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.8);
+}
+
+#mensaje {
+  width: 335px;
+  height: 780px;
+  font-family: 'Inter';
+  font-style: 'regular';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  border: none;
+  margin-left: 30px;
+  color: #343a40;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+#alert-icon {
+  display: inline-block;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 800px;
+  margin-left: 120px;
+}
+
+#alerta {
+  display: inline-block;
+  flex-direction: row;
+  align-items: flex-start;
+
+  font-family: 'inter';
+  font-style: 'Regular';
+  font-size: 12px;
+}
+
+.enviar {
+  display: inline-block;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 24px;
+  margin-left: 120px;
+  gap: 8px;
+  width: 328px;
+  height: hug(67px);
+  padding: 24px;
+
+  font-family: 'inter';
+  font-style: 'Regular';
+  font-size: 16px;
+  line-height: 19px;
+  line-height: 100%;
+  text-align: center;
+
+  background: #0a3871;
+  border-radius: 32px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+.enviar1 {
+  display: inline-block;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 8px;
+  width: 328px;
+  height: hug(19px);
+  top: 24px;
+  left: 24px;
+
+  font-family: 'inter';
+  font-style: 'Regular';
+  font-size: 16px;
+  line-height: 19px;
+  line-height: 100%;
+  text-align: center;
+
+  background: #d8dfe8;
+  border: 1px solid #0a3871;
+  border-radius: 32px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+.enviar2 {
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 50px;
+  margin-left: 36px;
+  gap: 8px;
+  width: 328px;
+  height: 67px;
+
+  font-family: 'inter';
+  font-style: 'Regular';
+  font-size: 16px;
+  line-height: 19px;
+  line-height: 100%;
+  text-align: center;
+
+  background: #0a3871;
+  border-radius: 32px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+.enviar,
+value {
+  color: white;
+  font-size: 20px;
+}
+
+.enviar1,
+value {
+  color: black;
+  font-size: 20px;
+}
+
+.enviar2,
+value {
+  color: white;
+  font-size: 20px;
+}
+
+.enviar:hover {
+  background: #0a3871;
+  transform: scale(1.2);
+}
+
+.enviar1:hover {
+  background: #d8dfe8;
+  transform: scale(1.2);
+}
+
+.enviar2:hover {
+  background: #0a3871;
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px) {
+  .caja {
+    position: absolute;
+    width: 728px;
+    height: 1384px;
+  }
+
+  .img {
+    width: auto;
+  }
+
+  #escriba {
+    width: 688px;
+    height: 48px;
+    top: 240px;
+    left: 20px;
+  }
+
+  .mne {
+    width: 588px;
+    height: hug(343px);
+    top: 550px;
+    left: 32px;
+    border-radius: 32px;
+    padding: 32px;
+    gap: 32px;
+  }
+
+  #mensaje {
+    width: fill(588px);
+    height: hug(180px);
+    margin-left: 1px;
+  }
+
+  .enviar {
+    flex-direction: row;
+    width: fill(332px);
+    height: hug(50px);
+    border: radius 24px;
+    padding: 24px;
+    margin-left: 25px;
+    gap: 8px;
+    margin-top: 350px;
+    align-items: center;
+
+    font-family: 'inter';
+    font-style: 'regular';
+    font-weight: 400;
+    font: size 16px;
+    line-height: 19.36px;
+    line-height: 100%;
+  }
+  .enviar1 {
+    flex-direction: row;
+    width: 332px;
+    height: hug(50px);
+    border: radius 24px;
+    padding: 24px;
+    margin-left: 5px;
+    gap: 8px;
+
+    font-family: 'inter';
+    font-style: 'regular';
+    font-weight: 400;
+    font: size 16px;
+    line-height: 19.36px;
+    line-height: 100%;
+  }
+  .enviar2 {
+    width: 500px;
+    height: hug(19px);
+    top: 150px;
+    margin-left: 43px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .caja {
+    position: absolute;
+    width: 375px;
+    height: 933px;
+  }
+
+  .img {
+    width: auto;
+  }
+
+  #escriba {
+    width: 343px;
+    height: 48px;
+    top: 152px;
+    left: 16px;
+  }
+
+  .mne {
+    width: 265px;
+    height: 595px;
+    top: 707px;
+    left: 24px;
+    border-radius: 32px;
+    padding: 32px;
+    gap: 32px;
+  }
+
+  #mensaje {
+    width: 260px;
+    height: 432px;
+    margin-left: 1px;
+  }
+
+  .enviar {
+    width: fill(295px);
+    height: hug(19px);
+    border: radius 24px;
+    padding: 24px;
+    margin-left: 24px;
+    gap: 8px;
+    margin-top: 350px;
+    align-items: center;
+
+    align-items: center;
+
+    font-family: 'inter';
+    font-style: 'regular';
+    font-weight: 400;
+    font: size 16px;
+    line-height: 19.36px;
+    line-height: 100%;
+  }
+  .enviar1 {
+    width: fill(295px);
+    height: hug(19px);
+    border-radius: 24px;
+    padding: 24px;
+    margin-left: 24px;
+    gap: 8px;
+
+    align-items: center;
+
+    font-family: 'inter';
+    font-style: 'regular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.36px;
+    line-height: 100%;
+  }
+  .enviar2 {
+    width: 231px;
+    height: hug(19px);
+    border-radius: 24px;
+    padding: 24px;
+    margin-left: 24px;
+    gap: 8px;
+
+    align-items: center;
+
+    font-family: 'inter';
+    font-style: 'regular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+  }
+}
